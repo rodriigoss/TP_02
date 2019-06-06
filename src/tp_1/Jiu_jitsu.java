@@ -1,3 +1,4 @@
+package tp_1;
 
 public class Jiu_jitsu extends Modalidades implements Poder {
 	

@@ -1,3 +1,4 @@
+package tp_1;
 
 public class Karate  extends Modalidades implements Poder{
 	

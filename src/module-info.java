@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author rodrigo
- *
- */
-module ufc{
-}

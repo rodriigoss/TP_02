@@ -1,3 +1,5 @@
+package tp_1;
+
 
 public class Main {
 
@@ -6,6 +8,8 @@ public class Main {
 
 			ReadArq v = new ReadArq();
 			v.visualizarArquivos();
+		/*LutadorView lut = new LutadorView();
+		lut.Inicio();*/
 
 		/*Jogar jogo= new Jogar();
 

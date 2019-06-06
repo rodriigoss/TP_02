@@ -1,3 +1,4 @@
+package tp_1;
 
 public class Muay_thai extends Modalidades implements Poder{
 

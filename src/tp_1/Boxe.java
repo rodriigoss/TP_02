@@ -1,3 +1,4 @@
+package tp_1;
 
 public class Boxe extends Modalidades implements Poder{
 	
