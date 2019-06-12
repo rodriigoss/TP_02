@@ -1,10 +1,16 @@
 package tp_1;
 
+/**
+ * 
+ * @author rodrigo
+ * Classe luta modela os atributos que uma luta precisa
+ */
 public class Luta {
 
 	private String idLuta;
 	private String anoLiga;
 	private String vencedor;
+	private int pontosVencedor;
 	private String lutador1;
 	private String lutador2;
 	public String getIdLuta() {
@@ -37,6 +43,13 @@ public class Luta {
 	public void setLutador2(String lutador2) {
 		this.lutador2 = lutador2;
 	}
+	public int getPontosVencedor() {
+		return pontosVencedor;
+	}
+	public void setPontosVencedor(int pontosVencedor) {
+		this.pontosVencedor = pontosVencedor;
+	}
+	
 	
 	
 }

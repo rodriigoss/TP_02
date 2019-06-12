@@ -1,5 +1,10 @@
 package tp_1;
-
+/**
+ * 
+ * @author rodrigo
+ * A classe Acao contem as possiveis acoes dos lutadores como ataque, soco, chute, poder, defesa
+ *
+ */
 public class Acao {
 
 	public String ataque;

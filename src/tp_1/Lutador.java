@@ -1,6 +1,10 @@
 package tp_1;
-import java.util.ArrayList;
 
+/**
+ * 
+ * @author rodrigo
+ * Classe Lutador modela os parametros necessarios para um lutador
+ */
 public class Lutador {
 
 	private int idLutador;
@@ -9,13 +13,7 @@ public class Lutador {
 	private String sexo;
 	private String pais;
 	private int pontos;
-	ArrayList<Acao> acoes;
 	
-   public Lutador(String nome , int pontos) {
-	    acoes= new ArrayList<Acao>();
-    	this.nome=nome;
-		this.pontos= pontos ;
-	}
     public Lutador() {
 		// TODO Auto-generated constructor stub
 	}

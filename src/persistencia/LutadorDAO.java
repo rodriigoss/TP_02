@@ -1,6 +1,7 @@
 package persistencia;
 
 import tp_1.Lutador;
+import tp_1.Strings;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,7 +12,7 @@ import java.util.ArrayList;
 public class LutadorDAO {
 	
 	
-	public ArrayList<Lutador> selecionarTodos() {
+	public void selecionarTodos() {
 		ArrayList<Lutador> ArrayLutadors = new ArrayList<Lutador>();
 		try {
 			Connection conexao = new Conexao().getConexao();
@@ -33,7 +34,7 @@ public class LutadorDAO {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		return ArrayLutadors;
+		Strings.printLutadores(ArrayLutadors);
 	}
 
 	public Lutador selecionar(Lutador LutadorEntity) {

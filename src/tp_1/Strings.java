@@ -1,23 +1,40 @@
 package tp_1;
+
+import java.util.ArrayList;
+ /**
+  * 
+  * 
+  * @author rodrigo
+  * a classe Strings é Statica e serve para imprimir mensagens na tela 
+  */
 public class Strings {
-		
 	
-	public static void printVenceu(Lutador jogador,int i,Lutador maquina) {
-		System.out.println("parabens vc ganhou a "+i+"º luta contra "+maquina.getNome()+"\n");
+	public static void printFinals(String Numero, String Nome) {
+		System.out.println("O Grande Campeao é "+Nome+" com "+Numero+" vitorias!!"+"\n");
 
 	}
-	public static void printCampeao(Lutador jogador) {
-		System.out.println("Parabens "+ jogador.getNome()+"!! Voce venceu todos os combates e se tornou o compeao do UFC");		
+		
+	public static void printLutas(ArrayList<Luta> ArrayLutas) {
+		for (Luta luta2 : ArrayLutas) {
+			System.out.println(" IdLuta   : "+ luta2.getIdLuta());
+			System.out.println(" AnoLiga  : "+ luta2.getAnoLiga());
+			System.out.println(" Lutador1 : "+ luta2.getLutador1());
+			System.out.println(" Lutador2 : "+ luta2.getLutador2());
+			System.out.println(" Vencedor : "+ luta2.getVencedor());
+			System.out.println(" ----------------------------------- ");
+		}
+
 
 	}
-	public static void printPerdeu(Lutador jogador,Lutador maquina,int i) {
-		System.out.println(jogador.getNome()+" voce perdeu a "+i+"º Luta para "+maquina.getNome()+" e foi eliminado do Torneio!");
-        System.exit(0);
+	
+	public static void printLutadores(ArrayList<Lutador> ArrayLutadors) {
+		for (Lutador lutador : ArrayLutadors) {
+			System.out.println(" IdLutador : "+ lutador.getIdLutador());
+			System.out.println(" Nome      : "+ lutador.getNome());
+			System.out.println(" Pais      : "+ lutador.getPais());
+			System.out.println(" Sexo      : "+ lutador.getSexo());
+			System.out.println(" Categoria : "+ lutador.getCategoria());
+			System.out.println(" ----------------------------------- ");
+		}
 	}
-	public static void printMostraVida(Lutador jogador,Lutador maquina) {
-		System.out.println(" Fim do combate!!");
-		System.out.println("vida jogador : "+ jogador.getVida());
-		System.out.println("vida maquina : "+ maquina.getVida());
-	}
-
 }
