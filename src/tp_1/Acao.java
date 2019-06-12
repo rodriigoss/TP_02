@@ -2,15 +2,15 @@ package tp_1;
 
 public class Acao {
 
-	public int ataque;
-	public int soco;
-	public int chute;
-	public int poder;
-	public int defesa;
+	public String ataque;
+	public String soco;
+	public String chute;
+	public String poder;
+	public String defesa;
 	
 	public Acao(){
 	}
-
+/*
 	public int getAtaque() {
 		return ataque;
 	}
@@ -49,7 +49,7 @@ public class Acao {
 
 	public void setDefesa(int defesa) {
 		this.defesa = defesa;
-	}
+	}*/
 	
 	
 	

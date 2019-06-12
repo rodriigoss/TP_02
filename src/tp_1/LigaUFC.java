@@ -8,12 +8,12 @@ public class LigaUFC {
 	private String nome;
 	private Lutador jogador; 
 	private Scanner ler;
-	private Luta luta;
+	private combate luta;
 	
 	public LigaUFC() {
 		maquina= new ArrayList<Lutador>();
 		ler = new Scanner(System.in);
-		luta= new Luta();
+		luta= new combate();
 	}	
 	
 	public void nomeLutadores() {                     // da nome aos Lutadores e determina os pontos
