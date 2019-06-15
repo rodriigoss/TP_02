@@ -73,9 +73,6 @@ public class ReadArq{
 		            	 numLinha++;
 		            	 
 		             }
-
-
-		             
 		          }
 		          br.close();
 		       }catch(IOException ioe){
